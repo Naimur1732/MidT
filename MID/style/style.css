@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background: #a213c6;
+    background: hsl(293, 5%, 33%);
     padding: 10px 0;
 }
 
@@ -52,7 +52,7 @@ nav ul li a:hover {
     transition: color 0.3 ease;
 }
 .hero {
-    background: #c4d01e;
+    background: #a72022;
     padding: 50px 0;
     text-align: center;
 }
