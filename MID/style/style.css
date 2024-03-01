@@ -48,7 +48,7 @@ nav ul li a:hover {
     transition: color 0.3 ease;
 }
 .hero {
-    background: #ffd700;
+    background: #c4d01e;
     padding: 50px 0;
     text-align: center;
 }
@@ -90,4 +90,16 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+.pp{
+    text-align: left;
+    background-color:rgb(11, 11, 11);
+    color:white;
+    padding: 20px;
+    margin: 0px;
+}
+.emg{
+padding: 0px;
+margin: 0px;
 }
