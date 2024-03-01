@@ -13,6 +13,10 @@ body {
     max-width: 1100px;
     margin: auto;
     padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 100px;
+    justify-content: center;
 }
 
 header {
@@ -58,14 +62,14 @@ nav ul li a:hover {
 }
 
 .products {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
 }
 
 .product {
-    width: 300px;
+    width: 400px;
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -89,17 +93,35 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
+    margin-top: 100px;
 }
 
 .pp{
     text-align: left;
     background-color:rgb(11, 11, 11);
     color:white;
-    padding: 20px;
+    padding: 30px;
     margin: 0px;
 }
 .emg{
-padding: 0px;
-margin: 0px;
+padding-right: 10px;
+margin: 15px;
+display: flex;
+width: 33%;
+justify-content: space-between;
+}
+
+#fer{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fer2 img{
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 auto;
 }
